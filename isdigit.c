@@ -1,4 +1,4 @@
-#include "lic.h"
+#include "libc.h"
 
 int isdigit(int c)
 {

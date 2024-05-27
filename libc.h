@@ -12,3 +12,11 @@ size_t strlen(const char *s);
 void *memcpy(void *dst, const void *src, size_t n);
 int memcmp(const void *s1, const void *s2, size_t n);
 void *memset(void *b, int c, size_t len);
+
+typedef struct s_list
+{
+  void			*content;
+  struct s_list	*next;
+} list;
+
+list *listnew(void *content);

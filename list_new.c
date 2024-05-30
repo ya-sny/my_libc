@@ -1,6 +1,6 @@
 #include "libc.h"
 
-list *listnew(void *content)
+list *list_new(void *content)
 {
 	list	*new_list;
 

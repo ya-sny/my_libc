@@ -19,4 +19,6 @@ typedef struct s_list
   struct s_list	*next;
 } list;
 
-list *listnew(void *content);
+list *list_new(void *content);
+void	list_add_back(list **lst, list *new);
+void	list_add_front(list **lst, list *new);

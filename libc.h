@@ -24,3 +24,4 @@ void	list_add_back(list **lst, list *new);
 void	list_add_front(list **lst, list *new);
 void	list_clear(list **lst, void (*del)(void*));
 void	list_delete_one(list *lst, void (*del)(void *));
+int	list_size(list *lst);

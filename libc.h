@@ -16,6 +16,7 @@ size_t	strlcat(char *dst, const char *src, size_t dstsize);
 void *memcpy(void *dst, const void *src, size_t n);
 int memcmp(const void *s1, const void *s2, size_t n);
 void *memset(void *b, int c, size_t len);
+void	*calloc(size_t count, size_t size);
 
 typedef struct s_list
 {

@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+int	atoi(const char *str);
 int isalpha(int c); 
 int isalnum(int c); 
 int isdigit(int c); 
